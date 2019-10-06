@@ -20,16 +20,14 @@ class Furniture extends Main
         $this->length = $length;
     }
 
-     public function setWeight($weight)
-     {
-         $this->weight = $weight;
-     }
-
+    public function setWeight($weight)
+    {
+        
+    }
     public function setSize($size)
     {
-        $this->size = $size;
+        
     }
-
 }
 
 ?>

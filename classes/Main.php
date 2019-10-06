@@ -8,14 +8,12 @@ abstract class Main
     private $barcode;
     private $name;
     private $price;
-
+    private $image;
     protected $size;
     protected $height;
     protected $width;
     protected $length;
     protected $weight;
-
-    private $image;
 
     // SET Parametres
     public function setBarcode($barcode)
@@ -33,16 +31,16 @@ abstract class Main
         $this->price = $price;
     }
 
+    public function setImage($image)
+    {
+        $this->image = $image;
+    }
+
     abstract function setSize($size);
     abstract function setHeight($height);
     abstract function setWidth($width);
     abstract function setLength($length);
     abstract function setWeight($weight);
-    
-    public function setImage($image)
-    {
-        $this->image = $image;
-    }
 
     // Create Data
     public function insert()

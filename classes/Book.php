@@ -4,29 +4,26 @@ include "classes/Main.php";
 class Book extends Main
 {
     // SET Parametre
-    public function setHeight($height)
+    public function setWeight($weight)
     {
-        $this->height = $height;
+        $this->weight = $weight;
     }
-
-    public function setWidth($width)
-    {
-        $this->width = $width;
-    }
-
-    public function setLength($length)
-    {
-        $this->length = $length;
-    }
-
-     public function setWeight($weight)
-     {
-         $this->weight = $weight;
-     }
 
     public function setSize($size)
     {
-        $this->size = $size;
+        
+    }
+    public function setHeight($height)
+    {
+        
+    }
+    public function setWidth($width)
+    {
+        
+    }
+    public function setLength($length)
+    {
+        
     }
 }
 
