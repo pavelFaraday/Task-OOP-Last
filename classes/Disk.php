@@ -9,25 +9,10 @@ class Disk extends Main
         $this->size = $size;
     }
 
-    public function setWeight($weight)
-    {
-
-    }
-    
-    public function setHeight($height)
-    {
-
-    }
-    
-    public function setWidth($width)
-    {
-
-    }
-    
-    public function setLength($length)
-    {
-
-    }
+    public function setWeight($weight){}
+    public function setHeight($height){}
+    public function setWidth($width){}
+    public function setLength($length){}
 }
 
 ?>

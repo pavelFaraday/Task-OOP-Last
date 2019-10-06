@@ -9,22 +9,11 @@ class Book extends Main
         $this->weight = $weight;
     }
 
-    public function setSize($size)
-    {
-        
-    }
-    public function setHeight($height)
-    {
-        
-    }
-    public function setWidth($width)
-    {
-        
-    }
-    public function setLength($length)
-    {
-        
-    }
+    public function setSize($size){}
+    public function setHeight($height){}
+    public function setWidth($width){}
+    public function setLength($length){}
+    
 }
 
 ?>

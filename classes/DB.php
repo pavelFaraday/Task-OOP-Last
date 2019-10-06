@@ -1,5 +1,5 @@
 <?php
-include "classes/config.php";
+require "classes/config.php";
 
 class DB
 {
