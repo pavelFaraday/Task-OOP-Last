@@ -1,5 +1,5 @@
 <?php
-include "classes/DB.php";
+require_once "classes/DB.php";
 
 abstract class Main
 {

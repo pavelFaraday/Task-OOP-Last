@@ -19,16 +19,21 @@ if (isset($_POST['create'])) {
     $width = isset($_POST['width']) ? $_POST['width'] : '';
     $length = isset($_POST['length']) ? $_POST['length'] : '';
     $weight = isset($_POST['weight']) ? $_POST['weight'] : '';
+
     $image = $_POST['image']; 
     $user->setBarcode($barcode);    
     $user->setName($name);    
-    $user->setPrice($price);    
-    $user->setSize($size);    
+    $user->setPrice($price);
     $user->setHeight($height);    
     $user->setWidth($width);    
-    $user->setLength($length);    
-    $user->setWeight($weight);    
+    $user->setLength($length); 
     $user->setImage($image); 
+
+    $Disk = new Disk();   
+    $Disk->setSize($size); 
+
+    $book = new Book();    
+    $book->setWeight($weight);
 }
 
 // Delede Data

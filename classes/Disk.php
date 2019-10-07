@@ -1,5 +1,5 @@
 <?php
-include "classes/Main.php";
+require_once "classes/Main.php";
 
 class Disk extends Main
 {
